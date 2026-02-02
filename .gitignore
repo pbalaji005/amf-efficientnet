@@ -1,0 +1,32 @@
+# =====================
+# DATASETS (NEVER COMMIT)
+# =====================
+data/
+final_split_dataset/
+
+# =====================
+# TRAINING OUTPUTS
+# =====================
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# =====================
+# LOGS / CLUSTER OUTPUTS
+# =====================
+*.csv
+*.log
+*.out
+*.err
+
+# =====================
+# PYTHON CACHE
+# =====================
+__pycache__/
+.ipynb_checkpoints/
+
+# =====================
+# OS FILES
+# =====================
+.DS_Store
